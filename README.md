@@ -10,7 +10,7 @@ The dataset contains a wide range of covariates about U.S. counties, including p
 The data exploration and cleaning phase involved merging population data from the 2019 American Community Survey with voting data from the same year. The data was standardized to ensure consistency, with most variables expressed as percentages to facilitate meaningful comparisons across counties of varying sizes. Key preprocessing steps included handling missing values by replacing numeric missing entries with their mean values and removing categorical entries with missing values. The dataset was further processed by converting political affiliation categories into a binary format, mapping "Democrat" to 1 and "Republican" to 0, making it suitable for statistical and machine learning analyses.
 
 Exploratory Data Analysis was performed using Python libraries such as pandas, numpy, seaborn, and matplotlib to understand the dataset's structure and relationships. Summary statistics were computed to identify central tendencies and variations across counties. Visualization techniques, including pair plots, box plots, bar charts, and heatmap were used to explore how different variables correlated with political affiliation. 
-<img src="images/bar_educ.png" alt="Box Plots" width="500" height="500">
+<img src="images/box_plots.png" alt="Box Plots" width="500" height="500">
 <img src="images/bar_educ.png" alt="Education Bar Chart" width="500" height="300">
 <img src="images/bar_race.png" alt="Race Bar Chart" width="500" height="300">
 

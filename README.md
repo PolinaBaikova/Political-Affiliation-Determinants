@@ -22,9 +22,9 @@ Exploratory Data Analysis was performed using Python libraries such as pandas, n
 # Statistical Analysis and Modeling
 To further analyze the data, hypothesis testing and statistical modeling techniques were applied. Linear regression was employed to analyze the factors affecting political affiliation, with multicollinearity checked using Variance Inflation Factor (VIF). High multicollinearity prompted the removal of certain variables and the application of transformations such as logarithms and interaction terms to improve model performance. The final model achieved an R² of 54.2%, indicating a moderate explanatory power. Given the complexity of human behavior and social phenomena, this level of explanatory power is considered reasonable. This suggests that while the model does not capture the entirety of the variation in political affiliation, it still provides meaningful insights into key determinants. Linear regression predictions aligned well with actual data, as shown in scatter plots of predicted vs. actual values.
 
-<img src="images/yhat_vs_y_test.png" alt="Test vs Predicted" width="500" height="300">
+<img src="images/yhat_vs_y_test.png" alt="Test vs Predicted" width="400" height="300">
 
-<img src="images/yhat_vs_ytrain.png" alt="Train vs Predicted" width="500" height="300">
+<img src="images/yhat_vs_ytrain.png" alt="Train vs Predicted" width="400" height="300">
 
 In addition to linear regression, logistic regression was applied to classify counties as Democratic or Republican based on socio-economic and demographic factors. Using sklearn and statsmodels, the logistic regression model achieved an accuracy of 84.53% through 15-fold cross-validation, demonstrating its robustness. The model provided insights into significant predictors of political affiliation, such as education and racial diversity, while logarithmic scaling was applied to variables like population to improve interpretability.
 
